@@ -1,0 +1,137 @@
+@font-face {
+  font-family: Quicksand;
+  src: url('../Font/Quicksand-VariableFont_wght.ttf');
+}
+@font-face {
+  font-family: Lora;
+  src: url('../Font/Lora-VariableFont_wght.ttf');
+}
+
+body{
+    background:  #f2e7d3;
+    font-family: Quicksand;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+.Menage{
+        background: #f2e7d3;
+        height: 10vh;
+        width: 60%  ;
+        margin-left: auto;
+        margin-right: auto;
+}
+.head {
+    width: 100%;
+    height: 10vh;
+    background: #f2e7d3;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Lora;
+    letter-spacing: 15px;
+}
+.head h1{
+    padding-top: 25px;
+}
+.main{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.left{
+  width: 50%;
+  float:left;
+}
+.right{
+  width: 35%;
+  float:right;
+}
+
+.container {
+  width: 40vw;
+  padding: 2vh;
+  background-color: #000000;
+  color: white;
+}
+
+input[type=text], input[type=submit] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[type=checkbox] {
+  margin-top: 1vh;
+}
+
+input[type=submit] {
+  background-color: rgb(95, 5, 5);
+  color: white;
+  border: none;
+}
+button{
+  width: 100%;
+  padding: 1vh;
+  margin: 1vw 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  background-color: rgb(95, 5, 5);
+  color: white;
+  border: none;
+
+}
+
+
+input[type=text1], select, textarea {
+  align-items: center;
+  width: 100%;
+  padding: 1vh;
+  border: 1px solid #ccc;
+  margin-top: 1vh;
+  margin-bottom: 1vh; 
+  margin-left: 50%;
+  resize: vertical;
+}
+
+input[type=submit1] {
+  margin-left: 50%;
+  background-color:   rgb(95, 5, 5);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit1]:hover {
+  
+  background-color: rgb(95, 5, 5);
+}
+
+.container1 {
+  border-radius: 15px;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 10px;
+}
+
+.column {
+  width: 50%;
+  margin-top: 1vh;
+  padding: 1vw;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+input[type=submit1]:hover {
+  opacity: 0.8;
+}
+

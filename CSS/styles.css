@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@media only screen and (min-width:1024px) {
+body{
+    background-image:url('../IMAGES/BG.jpg') ;
+    background-repeat: no-repeat;
+    background-color: #f2e7d3;
+}
+@font-face {
+    font-family: "Vincent";
+    src: url('../Font/Gong/P22\ Vincent\ Regular.ttf');
+}
+.Menage{
+    height: 10vh;
+    width: 60%  ;
+    margin-left: auto;
+    margin-right: auto;
+}
+.head{
+    /* background-color: #3c1900; */
+    height: 10vh;
+    width: 40vw  ;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    margin-top: 10vh;
+    /* border-style: solid;
+    border-color: #615d48;
+    border-radius: 20px;
+    border-width: 0.5vh; */
+}
+
+.main{
+    /* background-color: #615d48; */
+    /* border-style: solid;
+    border-color: black;
+    border-radius: 20px; */
+    /* border-width: 2vh; */
+    width: 40vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+.mainText1BG{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+}
+.mainText2BG{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.GoghBG{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+}
+.mainText1{
+    color: Black;
+    font-size: 60px;
+    font-family: 'Vincent';
+}
+.mainText2{
+    color: Black;
+    font-size: 60px;
+    font-family: 'Vincent';
+}
+.Gogh{
+    width: 18vw;
+    transform: rotate(-90deg);
+    margin-bottom: 10vh;
+}
+}

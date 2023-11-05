@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Strona o Van Gogh'u</title>
+    <link rel="stylesheet" href="CSS/styles-about.css">
+    <link rel="stylesheet" href="CSS/Menu-Anima.css">
+
+</head>
+<body>
+    <div class="Menage">
+        <ul class="menu">
+            <div class="toggle"><ion-icon name="add-outline"></ion-icon></div>
+                <li style="--i:3;"><a style="text-decoration: none;" href="Galery.html"><ion-icon name="brush-outline"></ion-icon></a></li>
+                <li style="--i:4;"><a style="text-decoration: none;" href="Life.html"><ion-icon name="hourglass-outline"></ion-icon></a></li>
+                <li style="--i:5;"><a style="text-decoration: none;" href="MainPage.html"><ion-icon name="arrow-undo-outline"></ion-icon></a></li>
+        </ul>
+        </div>
+    <header class="head">
+       <h1>O Stronie</h1>
+    </header>
+    <article class="main">
+        <h2>Ta strona Powstawała w krwi i pocie czoła Marcina Serafina przez całe 3 dni</h2>
+        <h4 style="font-size: 1.5vh; float: right;">Jeżeli natomiast chcesz dostawać informacaje o<br> nowościach na stronie i zmianach (ps. Nie będzie żadnych) to możesz zapisać sie do Newslettera o tutaj</h4>
+
+        <br>
+        <h4 style="font-size: 2vh; float: left;">Jeżeli uważasz że zasługuje na twoją opinie (ps. i tak jej nie przeczytam) możesz ją zostawić tutaj</h4><br>
+    </article>
+    <article class="right">
+    <form>
+        <div class="container">
+          <h2>Zapisz sie do Newslettera</h2>
+        </div>
+        <div class="container" style="background-color:white">
+          <input 
+          id="emailAddress"
+          type="email"
+          size="64"
+          maxlength="64"
+          required
+          placeholder="Jakaśnazwa@mail.com"
+          pattern="[^@\s]+@[^@\s]+\.[^@\s]+"
+          title="Wpisz poprawny mail" />
+        </div>
+        <div class="container">
+            <button onclick="getElementById('demo').innerHTML = 'Pozostaje tylko czekac'">Zapisuje sie</button>
+        </div>
+    </article>
+
+    <article class="left">
+        <div class="container1">
+            <div style="text-align:center">
+              <h2>Sekcja Komentarzy</h2>
+              <p>Nie bój się. Nikt poza mną tego nie zobaczy</p>
+              <p>Ja z resztą też nie</p>
+            </div>
+            <div class="row">
+              <div class="column">
+                <form action="/action_page.php">
+                  <label style="margin-left: 50%;" for="nick">First Name</label>
+                  <input type="text1" id="fname" name="Twój Nick" placeholder="np. FanASD50%">
+                  <label  style="margin-left: 50%;" for="Wiadomość">Wiadomość</label>
+                  <textarea id="subject" name="subject" placeholder="Zostaw coś po sobie..." style="height:170px"></textarea>
+                  <input type="submit1" value="Submit1">
+                </form>
+              </div>
+            </div>
+          </div>
+        </article>  
+
+
+    
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="JS/Menu.js"></script>
+</body>
+</html>
